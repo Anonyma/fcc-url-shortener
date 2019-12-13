@@ -1,0 +1,51 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "shorturl"
+      version: "0.0.1"
+      description: "API project for freeCodeCamp"
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        express: "^5.0.0-alpha.2"
+        mongodb: "^3.4.0"
+        mongoose: "^5.8.0"
+        cors: "^2.8.5"
+        body-parser: "^1.19.0"
+      engines: 
+        node: "4.4.5"
+      repository: 
+        type: "git"
+        url: "https://hyperdev.com/#!/project/welcome-project"
+      keywords: 
+        - "node"
+        - "hyperdev"
+        - "express"
+      license: "MIT"
+      readme: "# API Project: URL Shortener Microservice for freeCodeCamp\n\n\n### User Stories\n\n1. I can POST a URL to `[project_url]/api/shorturl/new` and I will receive a shortened URL in the JSON response. Example : `{\"original_url\":\"www.google.com\",\"short_url\":1}`\n2. If I pass an invalid URL that doesn't follow the valid `http(s)://www.example.com(/more/routes)` format, the JSON response will contain an error like `{\"error\":\"invalid URL\"}`. *HINT*: to be sure that the submitted url points to a valid site you can use the function `dns.lookup(host, cb)` from the `dns` core module.\n3. When I visit the shortened URL, it will redirect me to my original link.\n\n\n#### Creation Example:\n\nPOST [project_url]/api/shorturl/new - body (urlencoded) :  url=https://www.google.com\n\n#### Usage:\n\n[this_project_url]/api/shorturl/3\n\n#### Will redirect to:\n\nhttps://www.freecodecamp.org/forum/"
+      readmeFilename: "README.md"
+      gitHead: "2890258c4b0420b720f7f1a1a5813742870abcaa"
+      _id: "shorturl@0.0.1"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving mongodb that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/79f9b09a-192b-4990-ba6c-e46c4a1bc4a8/node_modules/mongodb"
+      dest: "/rbd/pnpm-volume/79f9b09a-192b-4990-ba6c-e46c4a1bc4a8/node_modules/.ignored/mongodb"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/79f9b09a-192b-4990-ba6c-e46c4a1bc4a8/node_modules/mongodb' -> '/rbd/pnpm-volume/79f9b09a-192b-4990-ba6c-e46c4a1bc4a8/node_modules/.ignored/mongodb'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/79f9b09a-192b-4990-ba6c-e46c4a1bc4a8/node_modules/mongodb' -> '/rbd/pnpm-volume/79f9b09a-192b-4990-ba6c-e46c4a1bc4a8/node_modules/.ignored/mongodb'"
