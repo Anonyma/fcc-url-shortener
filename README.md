@@ -1,6 +1,6 @@
 # API Project: URL Shortener Microservice for freeCodeCamp
 ✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
-## Check the project code here: [server.js](server.js)
+## Check the project code here: [server.js](./server.js)
 
 
 
