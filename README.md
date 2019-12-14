@@ -1,5 +1,11 @@
 # API Project: URL Shortener Microservice for freeCodeCamp
-Main file: server.js
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+## Check the project code here: [server.js](server.js)
+
+
+
+╔ ———————————————————————————————————————————————————— ╗
+
 
 ### User Stories
 
@@ -19,3 +25,5 @@ POST [project_url]/api/shorturl/new - body (urlencoded) :  url=https://www.googl
 #### Will redirect to:
 
 https://www.freecodecamp.org/forum/# fcc-url-shortener
+
+╚ ———————————————————————————————————————————————————— ╝
