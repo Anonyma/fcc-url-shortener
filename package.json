@@ -18,11 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://hyperdev.com/#!/project/welcome-project"
+    "url": "https://github.com/Anonyma/fcc-url-shortener"
   },
   "keywords": [
     "node",
-    "hyperdev",
     "express"
   ],
   "license": "MIT"
